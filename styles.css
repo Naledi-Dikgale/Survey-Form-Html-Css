@@ -1,0 +1,5 @@
+body { 
+color:aqua;
+background: lightblue url("https://images.unsplash.com/photo-1587831990711-23ca6441447b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVza3RvcCUyMGNvbXB1dGVyfGVufDB8fDB8fA%3D%3D&w=1000&q=80") no-repeat fixed center;
+background-size: cover; 
+}
