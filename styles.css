@@ -1,5 +1,35 @@
 body { 
-color:aqua;
-background: lightblue url("https://images.unsplash.com/photo-1587831990711-23ca6441447b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVza3RvcCUyMGNvbXB1dGVyfGVufDB8fDB8fA%3D%3D&w=1000&q=80") no-repeat fixed center;
+color:#fff;
+background: #000 url("https://img.freepik.com/premium-vector/programming-code-icon-made-with-binary-code-coding-hacker-matrix-background-with-digits-1-0_127544-1141.jpg?w=2000") no-repeat fixed center;
 background-size: cover; 
+/* position: relative; */
+}
+
+.main-form{
+    margin: 4rem 0;
+    padding: 3rem 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: rgba(100, 100, 200, 0.8);
+}
+
+.survey-form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    display: flex;
+}
+
+#submit{
+    cursor: pointer;
+    border: none;
+    background-color: #37af65;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    width: 100%;
 }

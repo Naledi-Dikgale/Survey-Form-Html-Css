@@ -8,12 +8,49 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
-    <h1>Free Code Camp Survey</h1>
-    <p>Thank you for taking the time to help us improve the platform</p>
-   
+        <div class="main-form">
+            <h1 class="title">Free Code Camp Survey</h1>
+            <p class="description">Thank you for taking the time to help us improve the platform</p>
+            <form accept="submit" class="survey-form">
+                <label for="name">Name</label>
+                <input type="text" id="name">
+                <label for="email">Email</label>
+                <input type="email" id="email">
+                <label for="age">Age (Optional)</label>
+                <input type="number" name="" id="age">
+                <label for="role">Which option best describes your current role?</label>
+                <select name="role" id="role">
+                    <option value="role">One Role</option>
+                    <option value="student">Student</option>
+                    <option value="full time job">Full Time Job</option>
+                    <option value="full time learner">Full Time Learner</option>
+                    <option value="Prefer not to say">Prefer not to say</option>
+                    <option value="other">Others</option>
+                </select>
+                <label for="">Would you recommend freeCodeCamp to a friend?</label>
+                <input type="radio" name="recommend" id="definately"><label for="definately">Definitely</label>
+                <input type="radio" name="recommend" id="maybe"><label for="maybe">Maybe</label>
+                <input type="radio" name="recommend" id="not-sure"><label for="not-sure">Not Sure</label>
+                <label for="">What is your favorite feature of freeCodeCamp?
+                    <select name="feature" id="feature">
+                        <option value="challenges">Challenges</option>
+                        <option value="projects">Projects</option>
+                        <option value="community">Community</option>
+                        <option value="open source">Open Source</option>
+                    </select>
+                </label>
+                <label for="">What would you like to see improved? (Check all that apply)</label>
+                <input type="checkbox" id="frontend" name="" value="front end projects">
+                <label for="frontend">Front-End Projects</label><br>
+                <input type="checkbox" id="backend" name="" value="back end projects">
+                <label for="backend">Front-End Projects</label><br>
+                <label for="text-area">Any comments or suggestions?</label>
+                <textarea name="text-area" id="" cols="30" rows="10"></textarea>
+            </form>
+            <input type="submit" name="" id="submit">
+        </div>
 
-
+ 
 
     
 </body>
